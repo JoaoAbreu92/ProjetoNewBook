@@ -24,6 +24,9 @@ li {
     font-weight: bold;
 
 }
-.containerbody-fluid{
-    margin: 10px 80px 0px 80px;
+.container-fluid{
+    margin: 10px 20px 0px 20px;
+}
+.well{
+    padding: 10px;
 }
