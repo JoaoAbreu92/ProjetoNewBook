@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-p {
+span {
     text-align: left;
     font-style: italic;
 }
@@ -29,4 +29,10 @@ li {
 }
 .well{
     padding: 10px;
+}
+.icons {
+    font-size: 25px;
+}
+.footer{
+    background-color: aqua;
 }
