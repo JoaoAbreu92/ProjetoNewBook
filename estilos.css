@@ -17,6 +17,10 @@ span {
 #myNavbar {
     background-color: rgb(30, 193, 106);
 }
+.formlogin {
+    margin-top: 7px;
+    margin-right: 45px;
+}
 
 li {
 
@@ -35,4 +39,7 @@ li {
 }
 .footer{
     background-color: aqua;
+}
+.containercadastro {
+    
 }
