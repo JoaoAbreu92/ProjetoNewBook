@@ -1,45 +1,37 @@
 
-
-.perfil{
-    text-align: center;
+body {
+    background-color: rgb(224, 244, 233);
 }
-
-span {
-    text-align: left;
-    font-style: italic;
-}
-
 
 .navbar-toggle {
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
 
-#myNavbar {
+.navbar-toggle:hover {
+    background-color: rgb(221, 227, 232);
+}
+
+nav {
     background-color: rgb(30, 193, 106);
 }
+
 .formlogin {
     margin-top: 7px;
     margin-right: 45px;
 }
 
-li {
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.well {
+    padding: 8px;
 
 }
-.container-fluid{
-    margin: 10px 20px 0px 20px;
-}
-.well{
-    padding: 10px;
-}
+
 .icons {
     font-size: 25px;
 }
-.footer{
-    background-color: aqua;
-}
+
 .containercadastro {
-    
+
 }
+
+
+
