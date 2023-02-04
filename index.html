@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--menu header-->
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid" style="background-color: rgb(30, 193, 106);">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    Menu
+                </button>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.png" alt="logo" style="width: 50px; margin-top: -15px;">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="./index.html">inicio</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group input-group">
+                        <input type="text" class="form-control" placeholder="buscar...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" style="background-color: rgb(30, 193, 106);" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sair</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--coluna do perfil-->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-3 well">
+                <div class="well">
+                    <p class="perfil"><a href="#">Meu perfil</a></p>
+                    <img src="./img/foto-perfil.jpg" class="img-circle" height="85" width="85" alt="foto de perfil">
+                </div>
+                <div class="well">
+
+                    <button class="btn btn-success " data-toggle="collapse" data-target="#sobremim">Sobre
+                        mim</button>
+                    <div id="sobremim" class="collapse">
+                        <p>
+
+
+                            Atualmente estou estudando analise de sistemas com foco em front-end, estou me aperfeiçoando
+                            nas
+                            linguagens
+                            HTML 5, CSS, Javascript e bootstrap, nas partes de back-end estou me aprofundando em python
+                            e
+                            PHP,
+                            estou aprofundando meus conhecimento em Angular e React em cursos pela internet.
+                            <br><br>
+                            Eu estou escrevendo um livro de aventura com traços de rpg, pois sou apaixonado por leitura,
+                            isso me deu a ideia
+                            de desenvolver um app de rede social para leitores e escritores amadores, o app tem como
+                            intuito incentivar jovens e crianças a ter um bom habito de leitura.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="alert alert-success fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+                    <p><strong>Opa!</strong></p>
+                    As pessoas estão olhando o seu perfil. Veja suas notificações.
+                </div>
+                <!--Coluna de comunidades-->
+                <button type="button" class="btn btn-success" data-toggle="collapse"
+                    data-target="#comunidades">Comunidades</button>
+                <div id="comunidades" class="collapse"><br><br>
+                    <p><a href="#">Eu amo DarkSide</a></p>
+                    <p><a href="#">Queria um Filme deste livro</a></p>
+                    <p><a href="#">Perolas da literatura</a></p>
+                    <p><a href="#">Só mais um capitulo</a></p>
+                    <p><a href="#">Troca de livros usados</a></p>
+                </div><br><br>
+                <!--Coluna minha estante de livros-->
+                <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#estante">Minha
+                    estante</button>
+                <div id="estante" class="collapse"><br><br>
+                    <p><a href="#">Livros Que quero ler</a></p>
+                    <p><a href="#">Livros finalizados</a></p>
+                    <p><a href="#">Lendo</a></p>
+                    <p><a href="#">Livros favoritos</a></p>
+                </div><br><br>
+                <!--Minha Obra-->
+                <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#autor">Minha
+                    estante</button>
+                <div id="autor" class="collapse"><br><br>
+                    <p><a href="#">Guerra dos mundos</a></p>
+                    <p><a href="#">Conts</a></p>
+                </div><br><br>
+
+            </div>
+            <!--Slide de imagens banner-->
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-14">
+                        <div class="panel panel-default text-left">
+                            <div class="panel-body">
+                                <div id="meuslide" class="carousel slide" data-ride="carousel">
+                                    <!-- indicadores -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#meuslide" data-slide-to="0" class="active"></li>
+                                        <li data-target="#meuslide" data-slide-to="1"></li>
+                                        <li data-target="#meuslide" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- imagens slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="./img/mapa do meu mundo.jpg" alt="Mapa"
+                                                style="width:100%; height: 290px">
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="./img/banner01.png" alt="coding"
+                                                style="width:100%; height: 290px;">
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="./img/banner02.jpg" alt="labrador"
+                                                style="width:100%; height: 290px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="well">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ipsam consequatur id dolore 
+                                        nesciunt. Illum quia repellat nam pariatur et nisi esse quidem. Voluptatum veritatis sunt, 
+                                        rem doloribus quo unde.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="well">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ipsam consequatur id dolore 
+                                        nesciunt. Illum quia repellat nam pariatur et nisi esse quidem. Voluptatum veritatis sunt, 
+                                        rem doloribus quo unde.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="well">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ipsam consequatur id dolore 
+                                        nesciunt. Illum quia repellat nam pariatur et nisi esse quidem. Voluptatum veritatis sunt, 
+                                        rem doloribus quo unde.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <p>Seguidores</p>
+                    <img src="#" alt="#" width="400" height="300">
+                    <p><strong>Em construção</strong></p>
+                    <p>02/02/2023</p>
+                    <button class="btn btn-primary">Info</button>
+                </div>
+                <div class="well">
+                    <p>ADS</p>
+                </div>
+                <div class="well">
+                    <p>ADS</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="container-fluid text-center">
+    
+    </footer>
+
+</body>
+
+</html>
