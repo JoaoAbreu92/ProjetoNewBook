@@ -1,7 +1,7 @@
 <h1 align="center">NewBook</h1>
 
 
-## Descrição do Projeto
+## Site responsivo com bootstrap
 <p align="center">Projeto Rede Social</p>
 
 
