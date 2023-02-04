@@ -10,7 +10,19 @@ body {
 .navbar-toggle:hover {
     background-color: rgb(221, 227, 232);
 }
-
+.glyphicon {
+    font-size: 16px;
+}
+a {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border-left: 10px;
+    
+}
+a:hover {
+	color:rgb(30, 193, 106);
+	}
 nav {
     background-color: rgb(30, 193, 106);
 }
@@ -25,7 +37,7 @@ nav {
 
 }
 
-.icons {
+.icon {
     font-size: 25px;
 }
 
