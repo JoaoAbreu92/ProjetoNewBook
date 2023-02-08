@@ -1,4 +1,3 @@
-
 body {
     background-color: rgb(224, 244, 233);
 }
@@ -10,19 +9,23 @@ body {
 .navbar-toggle:hover {
     background-color: rgb(221, 227, 232);
 }
+
 .glyphicon {
     font-size: 16px;
 }
+
 a {
     font-size: 15px;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     border-left: 10px;
-    
+
 }
+
 a:hover {
-	color:rgb(30, 193, 106);
-	}
+    color: rgb(30, 193, 106);
+}
+
 nav {
     background-color: rgb(30, 193, 106);
 }
@@ -40,10 +43,17 @@ nav {
 .icon {
     font-size: 25px;
 }
+
 /* efeitos do formulário de cadastro*/
-.containercadastro {
-    background-color: aquamarine;
+.col-sm-7{
+    margin:0% 0% 2% 3% ;
+    
+}
+.col-sm-4 {
+    margin:0 0 20% 3%;
 }
 
-
-
+h1 {
+    text-align: center;
+    padding: 5;
+}
