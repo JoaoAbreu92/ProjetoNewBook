@@ -17,7 +17,7 @@
 - [x] Projeto responsivo
 - [ ] Linkar menus top
 - [ ] Linkar área de serviços
-- [ ] Footer
+- [x] Footer
 - [ ] Cadastro de usuário 
 
 ### 🛠 Tecnologias
