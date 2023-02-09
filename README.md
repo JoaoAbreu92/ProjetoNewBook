@@ -19,6 +19,8 @@
 - [ ] Linkar área de serviços
 - [x] Footer
 - [ ] Cadastro de usuário 
+- [ ] Cadastro de usuário
+- [ ] Acionando banco de dados
 
 ### 🛠 Tecnologias
 
