@@ -19,7 +19,7 @@
 - [ ] Linkar área de serviços
 - [x] Footer
 - [ ] Cadastro de usuário 
-- [ ] Cadastro de usuário
+- [ ] adicionando paginas secundarias
 - [ ] Acionando banco de dados
 
 ### 🛠 Tecnologias
